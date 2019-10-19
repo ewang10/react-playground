@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.Accordion, .Accordion-item {
+    list-style-type: none;
+}
+
+.Accordion-item {
+    margin-bottom: 5px;
+}
+
+.Accordion-item button {
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+.Accordion-item p {
+    padding: 20px;
+    border: solid 1px grey;
+}
