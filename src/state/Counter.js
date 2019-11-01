@@ -8,12 +8,12 @@ class Counter extends React.Component {
         console.log('props in constructor', props)
         super(props)
         this.state = { count: 0 }
-      }
-      handleButtonClick = () => {
+    }
+    handleButtonClick = () => {
         console.log('props in handleButtonClick', this.props)
         console.log('state in handleButtonClick', this.state)
         this.setState({ count: this.state.count + this.props.step })
-      }
+    }
     render() {
         return (
             <div>
